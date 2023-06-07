@@ -23,6 +23,7 @@ public class TooltipSystem : MonoBehaviour
     }
     public static void HideToolTip()
     {
-        current.tooltip.Tool.SetActive(false);
+        try { current.tooltip.Tool.SetActive(false); }
+        catch { Debug.Log("Implement Tooltip"); }
     }
 }
