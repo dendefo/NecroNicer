@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2177a17b7c0078946b291e64ae323016, type: 3}
+  m_Name: Soul Blast Degraded
+  m_EditorClassIdentifier: 
+  Stats:
+    Tier: 1
+    ParentDice: 1
+    Name: Soul Blast
+    Description: Unit Harness the raw power of his soul and direct it towards an
+      enemy, shattering their soul
+    Bonuses: "\u266650% chance of ability to {}"
+    Value: 6
+    MaxUses: 5
+    DustOnDestroy: -1
+    DustCost: 10
+    BloodCost: 10
+    Ability: 9
+    EffectToReferenceInDescription: 
+    EffectsToReferenceInBonuses: 01000000
+    DamageType: 1
+    Target: 1
+  material: {fileID: 2100000, guid: cb5898ba28e414f47a5fd335579d67df, type: 2}
+  Frame: {fileID: 2800000, guid: 7e5c80ee1f76181458eab8d579cdd36c, type: 3}
+  Offensive: 1
+  Defensive: 0
+  Buff: 0
+  Debuff: 0

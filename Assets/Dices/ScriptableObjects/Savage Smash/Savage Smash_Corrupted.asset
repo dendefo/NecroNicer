@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2177a17b7c0078946b291e64ae323016, type: 3}
+  m_Name: Savage Smash_Corrupted
+  m_EditorClassIdentifier: 
+  Stats:
+    Tier: 0
+    ParentDice: 1
+    Name: Savage Smash
+    Description: "Unit Slam his weapon hard dealing physical \rdamage to a chosen
+      enemy target"
+    Bonuses: "\u266650% to miss the attack "
+    Value: 17
+    MaxUses: 2
+    DustOnDestroy: 0
+    DustCost: 0
+    BloodCost: 0
+    Ability: 3
+    EffectToReferenceInDescription: 
+    EffectsToReferenceInBonuses: 
+    DamageType: 0
+    Target: 1
+  material: {fileID: 2100000, guid: e74d829bb88112246b7ce3063faabb2a, type: 2}
+  Frame: {fileID: 2800000, guid: 55256bdb685d9904aa06d71de9a5536c, type: 3}
+  Offensive: 1
+  Defensive: 0
+  Buff: 0
+  Debuff: 0

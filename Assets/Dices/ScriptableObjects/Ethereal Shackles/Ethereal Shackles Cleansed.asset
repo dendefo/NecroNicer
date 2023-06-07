@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2177a17b7c0078946b291e64ae323016, type: 3}
+  m_Name: Ethereal Shackles Cleansed
+  m_EditorClassIdentifier: 
+  Stats:
+    Tier: 3
+    ParentDice: 1
+    Name: Ethereal Shackles
+    Description: Unit shackles the core of his enemy soul leaving him unable react
+      or take action
+    Bonuses: "\u266650% Chance enemy become {}"
+    Value: 0
+    MaxUses: 8
+    DustOnDestroy: -1
+    DustCost: 35
+    BloodCost: -1
+    Ability: 6
+    EffectToReferenceInDescription: 
+    EffectsToReferenceInBonuses: 09000000
+    DamageType: 1
+    Target: 1
+  material: {fileID: 2100000, guid: a7279e5c5904b374abbbc18cf2db445e, type: 2}
+  Frame: {fileID: 2800000, guid: c6961dbffafc71a4397cf6834dadd1d4, type: 3}
+  Offensive: 0
+  Defensive: 0
+  Buff: 0
+  Debuff: 1

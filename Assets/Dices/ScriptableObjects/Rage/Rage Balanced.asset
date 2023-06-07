@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2177a17b7c0078946b291e64ae323016, type: 3}
+  m_Name: Rage Balanced
+  m_EditorClassIdentifier: 
+  Stats:
+    Tier: 2
+    ParentDice: 1
+    Name: Rage
+    Description: Rage is filling the unit as he goes into raging state rising his
+      physical damage ready to unleash it
+    Bonuses: "\u266650% Chance to get {}"
+    Value: 0
+    MaxUses: 15
+    DustOnDestroy: -1
+    DustCost: -1
+    BloodCost: -1
+    Ability: 7
+    EffectToReferenceInDescription: 
+    EffectsToReferenceInBonuses: 05000000
+    DamageType: 0
+    Target: 0
+  material: {fileID: 2100000, guid: 6deab84a4198aba41b78402ec71f72e0, type: 2}
+  Frame: {fileID: 2800000, guid: 0e3d7dfab37508f43b9e782457250f76, type: 3}
+  Offensive: 0
+  Defensive: 0
+  Buff: 1
+  Debuff: 0

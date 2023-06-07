@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2177a17b7c0078946b291e64ae323016, type: 3}
+  m_Name: Soul Barrier Degraded
+  m_EditorClassIdentifier: 
+  Stats:
+    Tier: 1
+    ParentDice: 1
+    Name: Soul Barrier
+    Description: Unit extand his soul out using his soul as a barrier increasing
+      his magical defense
+    Bonuses: "\u266650% of receiving {}"
+    Value: 6
+    MaxUses: 8
+    DustOnDestroy: -1
+    DustCost: 15
+    BloodCost: 15
+    Ability: 8
+    EffectToReferenceInDescription: 
+    EffectsToReferenceInBonuses: 07000000
+    DamageType: 1
+    Target: 0
+  material: {fileID: 2100000, guid: 821a89515fcae7740a2dc2747193dbb4, type: 2}
+  Frame: {fileID: 2800000, guid: 7e5c80ee1f76181458eab8d579cdd36c, type: 3}
+  Offensive: 0
+  Defensive: 1
+  Buff: 0
+  Debuff: 0

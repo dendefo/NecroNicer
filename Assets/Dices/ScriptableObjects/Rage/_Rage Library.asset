@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be6d8045dd9e754c902c01febba1c99, type: 3}
+  m_Name: _Rage Library
+  m_EditorClassIdentifier: 
+  ScriptObjects:
+  - {fileID: 11400000, guid: 181487099c3c1b94d9073b20fd51aa02, type: 2}
+  - {fileID: 11400000, guid: 9382b2be97bebff4cbd40774cd061e91, type: 2}
+  - {fileID: 11400000, guid: 5ff032aa7d5f2fa40ba4d2abb1854be8, type: 2}
+  - {fileID: 11400000, guid: f0b537b79400a804ba2c49263fd03dae, type: 2}
+  - {fileID: 11400000, guid: 3d79e92751c12934fbc9ba39bd1d659a, type: 2}

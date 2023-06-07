@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2177a17b7c0078946b291e64ae323016, type: 3}
+  m_Name: Defensive Stance Degraded
+  m_EditorClassIdentifier: 
+  Stats:
+    Tier: 1
+    ParentDice: 1
+    Name: Defensive Stance
+    Description: "Unit goes into a defensive stance boosting his \rdefense from the
+      next incoming physical damage"
+    Bonuses: " \u266650% chance of the unit to become {}"
+    Value: 6
+    MaxUses: 5
+    DustOnDestroy: 0
+    DustCost: 0
+    BloodCost: 0
+    Ability: 2
+    EffectToReferenceInDescription: 
+    EffectsToReferenceInBonuses: 04000000
+    DamageType: 0
+    Target: 0
+  material: {fileID: 2100000, guid: 7eeefa6a2caabf24ba73f673cd649218, type: 2}
+  Frame: {fileID: 2800000, guid: 7e5c80ee1f76181458eab8d579cdd36c, type: 3}
+  Offensive: 0
+  Defensive: 1
+  Buff: 0
+  Debuff: 1
