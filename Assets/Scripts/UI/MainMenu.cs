@@ -5,11 +5,12 @@ public class MainMenu : MonoBehaviour
 {
     public void GoToBattleScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void Exit()
     {
+        Debug.Log("Exit game button");
        Application.Quit();  
     }
 }
