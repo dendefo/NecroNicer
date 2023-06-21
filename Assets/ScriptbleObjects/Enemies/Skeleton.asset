@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6244049a7f1ab3c4794249b341813965, type: 3}
+  m_Name: Skeleton
+  m_EditorClassIdentifier: 
+  Name: Skeleton
+  Description: 
+  enemyFaceChance:
+  - abilityTypeFace: 1
+    Amount: 2
+    Chances:
+    - ChanceTierTypes: 2
+      Chances: 0.75
+    - ChanceTierTypes: 1
+      Chances: 0.25
+  - abilityTypeFace: 2
+    Amount: 2
+    Chances:
+    - ChanceTierTypes: 3
+      Chances: 0.6087876886827096
+    - ChanceTierTypes: 4
+      Chances: 0.39121231131729034
+  - abilityTypeFace: 4
+    Amount: 1
+    Chances:
+    - ChanceTierTypes: 3
+      Chances: 1
+  - abilityTypeFace: 6
+    Amount: 2
+    Chances:
+    - ChanceTierTypes: 2
+      Chances: 0.8583690937169385
+    - ChanceTierTypes: 4
+      Chances: 0.14163090628306163
+  - abilityTypeFace: 3
+    Amount: 1
+    Chances:
+    - ChanceTierTypes: 3
+      Chances: 1
+  BasicStats:
+    Health: 45
+    Initiative: 0
+    Attack: 0
+    Range: 0
+    Magic: 0
+    Defence: 0
+    MagicDefence: 0
+    CritDamage: 0
+    CritChance: 0
+    Elements:
+      Fire: 0
+      Water: 0
+      Air: 0
+      Earth: 0
+  RiggedPrefab: {fileID: 6089418757583256584, guid: 7a7257b05192a2942bfaeba1fdd33414, type: 3}
+  Miniature: {fileID: 21300000, guid: e85ea341fc5ab3840abd45eb1612908e, type: 3}
+  enemyTier: 10
